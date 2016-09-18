@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/janis-kra/express-answer/issues"
   },
-  "homepage": "https://github.com/janis-kra/express-answer#readme"
+  "homepage": "https://github.com/janis-kra/express-answer#readme",
+  "devDependencies": {
+    "eslint-config-janiskra": "^1.4.0"
+  }
 }
