@@ -4,7 +4,7 @@
   "description": "Convenience function for easier res.write",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,12 @@
     "url": "https://github.com/janis-kra/express-answer/issues"
   },
   "homepage": "https://github.com/janis-kra/express-answer#readme",
+  "engines": {
+    "node": ">6.0.0"
+  },
   "devDependencies": {
-    "eslint-config-janiskra": "^1.4.0"
+    "ava": "^0.17.0",
+    "eslint": "^3.13.1",
+    "eslint-config-janiskra": "^1.10.1"
   }
 }
