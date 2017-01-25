@@ -7,7 +7,7 @@ module.exports = function answer (res, status, message) {
     });
     res.write(json);
   } else {
-    res.status(status);
+    res.sendStatus(status);
   }
   res.end();
 };
