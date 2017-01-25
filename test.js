@@ -5,7 +5,7 @@ const WritableStream = require('stream').Writable;
 const answer = require('./index');
 
 class MockResponse extends WritableStream {
-  status (s) {
+  sendStatus (s) {
     this.lastStatus = s;
   }
   write (w) {
